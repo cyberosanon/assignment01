@@ -1,0 +1,364 @@
+<!doctype html>
+<!--Alfie Reigns Assignment- Coding BootCamp- Astrolabs-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="alfiereigns" content="bootstrap assignment">
+    <title>SUPER HOSTING SERVICE</title>
+    <meta name="description" content="all your web solution in one place" />
+    <meta name="keyword" content="webhosting,hosting,business,website,domain,signup,freewebsite" />
+    <meta name="description" content="all your web solution in one place" />
+<!-- favicon -->
+<link rel="shortcut icon" href="./hostlogo.png" type="image/x-icon">
+    
+
+    
+
+    <!-- Bootstrap & font awesome icon core CSS -->
+  <!-- This link will download Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .contactcs{
+        background: aqua;
+
+      }
+     
+    </style>
+
+    
+    <!-- Custom styles -->
+    <link href="view.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">  <img src="./hostlogo.png" alt="" height="60" class="responsive"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutpage">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactpage">Contact Us</a>
+          </li>
+         
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./slide0.jpg" class="bd-placeholder-img" width="100%" height="100%"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Welcome to Super Host LLC.</h1>
+            <p>Your Number One Web Hosting Service. Delivering State of the art Web Hosting Services</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./slide2.jpg" class="bd-placeholder-img" width="100%" height="100%"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Fast Checkout & Setup</h1>
+            <p>Deploy your web services on the cloud in no time. We got you covered</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./slide3.jpg" class="bd-placeholder-img" width="100%" height="100%"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>24/7 Customer Support.</h1>
+            <p>Our Customer Support representatives are always ready to assist you. COntact Us via Live Chat, Email or Phone Support</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Contact Us </a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row" id="aboutpage">
+      <div class="col-lg-4">
+        <i class="fas fa-adjust fa-5x"></i>
+
+        <h2>Why Choose Us</h2>
+        <p>Hosting at low monthly rates. Launch your website with a simple 1-click install. All our plans are backed with interesting, useful and innovative features that help to complete and complement your web hosting experience Thanks to Cpanel</p>
+        <p><a class="btn btn-secondary" href="#">Read More &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <i class="fas fa-server fa-5x"></i>
+
+        <h2>Our Services</h2>
+        <p>We offer a wide range of services including domain name registration, email hosting, file storage hosting, shared web hosting & dedicated server hosting, SSL Certificates installation, domain name transfer & many more</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <i class="fas fa-location-arrow fa-5x"></i>
+
+        <h2>Locate Us</h2>
+        <p>Super Hosting LLC.</br>112 B Street, Mankhool Road</br>Bur Dubai </br>Phone: +971123456789 </br>Email: hosting@superhostingllc.net   </p>
+        <p><a class="btn btn-secondary" href="#">View on Map &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal">Competitive Pricing</h1>
+      <p class="fs-5 text-muted">Below are the pricing of some of our hosting packages.</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Basic</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$5<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>1 Domain Name</li>
+              <li>2 GB of storage</li>
+              <li>Email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Pro</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$55<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>10 Domain Names</li>
+              <li>20 GB of storage</li>
+              <li>Priority email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-white bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Enterprise</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$100<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Unlimited Metered Websites</li>
+              <li>1 TB of storage</li>
+              <li>Free SSL Certificate</li>
+              <li>Phone and email support</li>
+              
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <hr class="featurette-divider">
+    <!--Testimonials-->
+    <h2 class="pb-2 border-bottom">Testimonials</h2>
+
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon">
+          <i class="fas fa-smile-wink fa-5x"></i>
+        </div>
+        
+        <p>Wow, Its unbelievable. Superb customer service. my website was deployed in no time. i am happy.</p>
+       
+      </div>
+      <div class="feature col">
+        <div class="feature-icon">
+          <i class="fas fa-smile-wink fa-5x"></i>
+        </div>
+       
+        <p>Amazing tools to get you started. We migrated from our old host within 24 hours. the process was smooth. thanks Superhosting</p>
+        
+      </div>
+      <div class="feature col">
+        <div class="feature-icon ">
+          <i class="fas fa-smile-wink fa-5x"></i>
+        </div>
+        
+        <p>value for money. 100% satisfied. Keep doing a good job - Superhosting .</p>
+       
+      </div>
+    </div>
+    <hr class="featurette-divider">
+      <!--Contact Form-->
+    <div class="row contactcs" id="contactpage">
+      <h2 class="pb-2 border-bottom" style="text-align: center;">Contact Us</h2>
+      <div class="row justify-content-center" id="contactus">
+        <div class="col-12 col-md-12 col-lg-10">
+
+          <!-- Form -->
+          <form id="my-form" action="https://formspree.io/f/xeqvvzrg" method="POST">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="form-group mb-5">
+
+                  <!-- Label -->
+                  <label class="form-label" for="contactName">
+                    Full name
+                  </label>
+
+                  <!-- Input -->
+                  <input class="form-control" id="contactName" type="text" placeholder="Full name" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAmJJREFUWAntV7uKIkEUvbYGM4KID3wEIgjKRLLpKGLgFwiCfslGhkb7IbLgAzE1GhMxWxRRBEEwmEgDERWfW6fXuttq60a2wU6B1qlzb9U5fatsKROJVigUArvd7oeAyePx6Af3qGYymT7F2h8Wi+V7Pp+fmE7iv4Sw81GieusKIzNh4puCJzdaHIagCW1F4KSeQ4O4pPLoPb/3INBGBZ7avgz8fxWIxWIUCoX43Blegbe3NwoGg88zwMoncFUB8Yokj8dDdrv9MpfHVquV/H4/iVcpc1qgKAp5vV6y2WxaWhefreB0OimXy6kGkD0YDKhSqdB2u+XJqVSK4vE4QWS5XKrx0WjEcZ/PR9lslhwOh8p1Oh2q1Wp0OBw4RwvOKpBOp1kcSdivZPLvmxrjRCKhiiOOSmQyGXp5ecFQbRhLcRDRaJTe39//BHW+2cDr6ysFAoGrlEgkwpwWS1I7z+VykdvtliHuw+Ew40vABvb7Pf6hLuMk/rGY02ImBZC8dqv04lpOYjaw2WzUPZcB2WMPZet2u1cmZ7MZTSYTNWU+n9N4PJbp3GvXYPIE2ADG9Xqder2e+kTr9ZqazSa1222eA6FqtUoQwqHCuFgscgWQWC6XaTgcEiqKQ9poNOiegbNfwWq1olKppB6yW6cWVcDHbDarIuzuBBaLhWrqVvwy/6wCMnhLXMbR4wnvtX/F5VxdAzJoRH+2BUYItlotmk6nLGW4gX6/z+IAT9+CLwPPr8DprnZ2MIwaQBsV+DBKUEfnQ8EtFRdFneBDKWhCW8EVGbdUQfxESR6qKhaHBrSgCe3fbLTpPlS70M0AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="form-group mb-5">
+
+                  <!-- Label -->
+                  <label class="form-label" for="email">
+                    Email
+                  </label>
+
+                  <!-- Input -->
+                  <input class="form-control" name="email" id="email" type="email" required="required" placeholder="hello@domain.com" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAmJJREFUWAntV7uKIkEUvbYGM4KID3wEIgjKRLLpKGLgFwiCfslGhkb7IbLgAzE1GhMxWxRRBEEwmEgDERWfW6fXuttq60a2wU6B1qlzb9U5fatsKROJVigUArvd7oeAyePx6Af3qGYymT7F2h8Wi+V7Pp+fmE7iv4Sw81GieusKIzNh4puCJzdaHIagCW1F4KSeQ4O4pPLoPb/3INBGBZ7avgz8fxWIxWIUCoX43Blegbe3NwoGg88zwMoncFUB8Yokj8dDdrv9MpfHVquV/H4/iVcpc1qgKAp5vV6y2WxaWhefreB0OimXy6kGkD0YDKhSqdB2u+XJqVSK4vE4QWS5XKrx0WjEcZ/PR9lslhwOh8p1Oh2q1Wp0OBw4RwvOKpBOp1kcSdivZPLvmxrjRCKhiiOOSmQyGXp5ecFQbRhLcRDRaJTe39//BHW+2cDr6ysFAoGrlEgkwpwWS1I7z+VykdvtliHuw+Ew40vABvb7Pf6hLuMk/rGY02ImBZC8dqv04lpOYjaw2WzUPZcB2WMPZet2u1cmZ7MZTSYTNWU+n9N4PJbp3GvXYPIE2ADG9Xqder2e+kTr9ZqazSa1222eA6FqtUoQwqHCuFgscgWQWC6XaTgcEiqKQ9poNOiegbNfwWq1olKppB6yW6cWVcDHbDarIuzuBBaLhWrqVvwy/6wCMnhLXMbR4wnvtX/F5VxdAzJoRH+2BUYItlotmk6nLGW4gX6/z+IAT9+CLwPPr8DprnZ2MIwaQBsV+DBKUEfnQ8EtFRdFneBDKWhCW8EVGbdUQfxESR6qKhaHBrSgCe3fbLTpPlS70M0AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+
+                </div>
+              </div>
+            </div> <!-- / .row -->
+            <div class="row">
+              <div class="col-12">
+                <div class="form-group mb-7 mb-md-9">
+
+                  <!-- Label -->
+                  <label class="form-label" for="message">
+                    What can we help you with?
+                  </label>
+
+                  <!-- Input -->
+                  <textarea class="form-control" id="message" name="message" rows="5" placeholder="Tell us what we can help you with!"></textarea required>
+
+                </div>
+              </div>
+            </div> <!-- / .row --> 
+          </br>
+            <div class="row justify-content-center">
+              <div class="col-auto">
+
+                <!-- Submit -->
+               
+                <button id="my-form-button" class="btn btn-primary">Send Message</button>
+                <p id="my-form-status"></p>
+              </div>
+            </div> <!-- / .row -->
+          </form>
+
+        </div>
+      </div> </div>
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2021 Super Hosting, LLC. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Place this script at the end of the body tag -->
+<script>
+  var form = document.getElementById("my-form");
+  
+  async function handleSubmit(event) {
+    event.preventDefault();
+    var status = document.getElementById("my-form-status");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: {
+          'Accept': 'application/json'
+      }
+    }).then(response => {
+      status.innerHTML = "Thanks for your message. We will Get back to you shortly!";
+      form.reset()
+    }).catch(error => {
+      status.innerHTML = "Oops! There was a problem submitting your request"
+    });
+  }
+  form.addEventListener("submit", handleSubmit)
+</script>  
+  </body>
+</html>
